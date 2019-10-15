@@ -1,0 +1,11 @@
+<div class="right" >
+
+  <h1> HELLO WORLD</h1>
+    <h3>Tutorials</h3>
+    <ul>
+      <li  (click)="deleteTutorial(i)" *ngFor="let tutorial of tutorials | async; let i=index">
+        <a  [href]="" > {{ tutorial.name }}</a>
+      </li>
+    </ul>
+  
+  </div>
